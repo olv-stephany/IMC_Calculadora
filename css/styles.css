@@ -1,5 +1,5 @@
 body{
-    background-color: #dde1ba;
+    background-color: #1a1a1a;
     margin: 0;
     padding: 0;
 }
@@ -13,12 +13,11 @@ main{
 .container{
     display: flex;
     flex-direction: column;
-    background-color: #CCD5AE;
     width: 400px;
     height: 500px;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 0 0 2px black;
+    border: solid 2px #29e6b7;
 }
 #tittle-style{
     display: flex;
@@ -45,7 +44,7 @@ main{
 }
 #container-info input{
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     width: 200px;
     height: 35px;
     border: none;
@@ -61,19 +60,23 @@ main{
     background-color: #fcfaea;
 }
 #calcular:hover{
-    background-color: #D4A373;
+    background-color: #99ddcc;
     color: #FEFAE0;
 }
 .resultados{
     margin-top: 15px;
     padding: 10px;
     display: flex;
+    flex-direction: column;
     font-size: 16px;
     align-items: center;
     border-radius: 5px;
     border: 1.5px dashed #ddd9c2;
-    background-color: #b78b5d;
     color: #f1f7cf;
     height: 100px;
 }
+.resultados span{
+    padding-bottom: 10px;
+}
+
 
